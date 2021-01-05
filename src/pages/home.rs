@@ -27,14 +27,14 @@ impl Component for Home {
 				id: 1,
 				name: "Apple".to_string(),
 				description: "An apple a day keeps the doctor away".to_string(),
-				image: "/products/apple.png".to_string(),
+				image: "./products/apple.png".to_string(),
 				price: 3.65,
 			},
 			Product {
 				id: 2,
 				name: "Banana".to_string(),
 				description: "An old banana lead was once young and green".to_string(),
-				image: "/products/banana.png".to_string(),
+				image: "./products/banana.png".to_string(),
 				price: 7.99,
 			}
 		];
